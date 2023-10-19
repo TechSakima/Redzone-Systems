@@ -1,0 +1,36 @@
+/* Dynamic Background */
+#dynamicBackground {
+  background: linear-gradient(90deg, red, blue, black);
+  animation: gradient 5s infinite linear;
+}
+
+/* Unique Font for Company Name */
+#companyName {
+  font-family: 'Courier New', monospace; /* Example font */
+}
+
+/* Theme Colors */
+body {
+  color: white;
+}
+
+/* Navigation */
+nav a {
+  margin: 10px;
+  transition: color 0.5s;
+}
+
+nav a:hover {
+  color: red;
+}
+
+/* CTA Button */
+#cta-button {
+  background-color: blue;
+  color: white;
+  transition: background-color 0.5s;
+}
+
+#cta-button:hover {
+  background-color: red;
+}
